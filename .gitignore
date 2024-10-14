@@ -1,3 +1,7 @@
 
 *.cache
 HashTables/obj/Debug/net6.0/HashTables.GlobalUsings.g.cs
+*.dll
+HashTables/obj/Debug/net6.0/apphost
+*.pdb
+*.json

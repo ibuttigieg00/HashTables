@@ -1,12 +1,13 @@
 class Node{
-    public int Value;
+    public string Key { get; set; }
+    public int Value { get; set; }    
     public Node? nextValue;
     public Node? prevValue;
 
-
-    public Node(int value) 
+    public Node(string Key, int Value) 
     {
-        this.Value = value;
+        this.Key = Key;
+        this.Value = Value;
         this.prevValue = null;
         this.nextValue = null;
     }

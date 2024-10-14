@@ -7,8 +7,8 @@ class DoublyLinkedList{
         tail = null;
     }
 
-    public void InsertAtHead(int value){
-        Node newNode = new Node(value);
+    public void InsertAtHead(string key, int value){
+        Node newNode = new Node(key, value);
 
         if (head == null){
             // then linked list is empty
@@ -22,9 +22,9 @@ class DoublyLinkedList{
         }
     }
 
-    public void InsertAtTail(int value)
+    public void InsertAtTail(string key, int value)
     {
-        Node newNode = new Node(value);
+        Node newNode = new Node(key, value);
 
         if(tail == null)
         {

@@ -1,0 +1,15 @@
+/Users/izaakbuttigieg/Documents/HashTables/HashTables/bin/Debug/net6.0/HashTables
+/Users/izaakbuttigieg/Documents/HashTables/HashTables/bin/Debug/net6.0/HashTables.deps.json
+/Users/izaakbuttigieg/Documents/HashTables/HashTables/bin/Debug/net6.0/HashTables.runtimeconfig.json
+/Users/izaakbuttigieg/Documents/HashTables/HashTables/bin/Debug/net6.0/HashTables.dll
+/Users/izaakbuttigieg/Documents/HashTables/HashTables/bin/Debug/net6.0/HashTables.pdb
+/Users/izaakbuttigieg/Documents/HashTables/HashTables/obj/Debug/net6.0/HashTables.csproj.AssemblyReference.cache
+/Users/izaakbuttigieg/Documents/HashTables/HashTables/obj/Debug/net6.0/HashTables.GeneratedMSBuildEditorConfig.editorconfig
+/Users/izaakbuttigieg/Documents/HashTables/HashTables/obj/Debug/net6.0/HashTables.AssemblyInfoInputs.cache
+/Users/izaakbuttigieg/Documents/HashTables/HashTables/obj/Debug/net6.0/HashTables.AssemblyInfo.cs
+/Users/izaakbuttigieg/Documents/HashTables/HashTables/obj/Debug/net6.0/HashTables.csproj.CoreCompileInputs.cache
+/Users/izaakbuttigieg/Documents/HashTables/HashTables/obj/Debug/net6.0/HashTables.dll
+/Users/izaakbuttigieg/Documents/HashTables/HashTables/obj/Debug/net6.0/refint/HashTables.dll
+/Users/izaakbuttigieg/Documents/HashTables/HashTables/obj/Debug/net6.0/HashTables.pdb
+/Users/izaakbuttigieg/Documents/HashTables/HashTables/obj/Debug/net6.0/HashTables.genruntimeconfig.cache
+/Users/izaakbuttigieg/Documents/HashTables/HashTables/obj/Debug/net6.0/ref/HashTables.dll
