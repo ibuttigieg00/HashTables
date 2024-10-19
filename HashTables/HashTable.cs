@@ -1,3 +1,5 @@
+using HashTables;
+
 class HashTable{
     private int Size;
     private DoublyLinkedList [] Table;
@@ -21,15 +23,16 @@ class HashTable{
             Table[i] = new DoublyLinkedList();
         }
     }
-
-    private int HashFunction(string key){
-        int hashCode = key.GetHashCode();
-        return Math.Abs(hashCode % Size);
-    }
  
     public void Insert(string key, int value)
     {
-        int index = HashFunction(key);
+        int index = HashFunctions.HashByDivision(key, Size);
         Table[index].InsertAtHead(key, value);
+    }
+
+    public void Delete(string key)
+    {
+        int index = HashFunctions.HashByDivision(key, Size);
+        bool result = Table[index].Delete(key);
     }
 }

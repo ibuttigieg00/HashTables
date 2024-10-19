@@ -5,3 +5,5 @@ HashTables/obj/Debug/net6.0/HashTables.GlobalUsings.g.cs
 HashTables/obj/Debug/net6.0/apphost
 *.pdb
 *.json
+*.vsidx
+*.lock

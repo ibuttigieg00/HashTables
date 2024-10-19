@@ -5,8 +5,11 @@
 
         // Insert key-value pairs
         hashTable.Insert("apple", 10);
-        hashTable.Insert("apple", 10);
+        hashTable.Insert("cucumber", 15);
         hashTable.Insert("banana", 20);
         hashTable.Insert("orange", 30);
+
+        // Delete
+        hashTable.Delete("cucumber");
     }
 }

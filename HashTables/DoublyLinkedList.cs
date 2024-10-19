@@ -38,8 +38,55 @@ class DoublyLinkedList{
             tail = newNode;
         }
     }
-    
-     // Utility function to print the list from head to tail
+
+    public bool Delete(string key)
+    {
+        Node? current = head;
+
+        while (current != null)
+        {
+            if(current.Key == key)
+            {
+                if(current == head)
+                {
+                    head = current.nextValue;
+                    
+                    if(head != null)
+                    {
+                        head.prevValue = null;
+                    }
+                    else
+                    {
+                        tail = null;
+                    }
+                }
+                else if(current == tail)
+                {
+                    tail = current.prevValue;
+
+                    if(tail != null)
+                    {
+                        tail.nextValue = null;
+                    }
+                    else
+                    {
+                        head = null;
+                    }
+                }
+                else
+                {
+                    current.prevValue.nextValue = current.nextValue;
+                    current.nextValue.prevValue = current.prevValue;
+                }
+                return true;
+            }
+
+            current = current.nextValue;
+        }
+        return false;  // Key not found in the list
+    }
+
+    // Utility function to print the list from head to tail
     public void PrintForward() {
         Node? current = head;
         while (current != null) {
